@@ -72,11 +72,11 @@ class Solution {
          *  https://www.hackerrank.com/contests/software-engineer-prep-kit/challenges/first-occurrence-in-event-code-log/problem?isFullScreen=true
          *  Find First Occurrence
          */
-        List<Integer> nums = new ArrayList<>(Arrays.asList(1, 3));
-        int target = 3;
-
-        int result = FindFirstOccurrence.findFirstOccurrence(nums, target);
-
-        System.out.println(result);
+//        List<Integer> nums = new ArrayList<>(Arrays.asList(1, 3));
+//        int target = 3;
+//
+//        int result = FindFirstOccurrence.findFirstOccurrence(nums, target);
+//
+//        System.out.println(result);
     }
 }
