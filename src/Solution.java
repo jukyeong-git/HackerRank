@@ -72,10 +72,34 @@ class Solution {
          *  https://www.hackerrank.com/contests/software-engineer-prep-kit/challenges/first-occurrence-in-event-code-log/problem?isFullScreen=true
          *  Find First Occurrence
          */
-        List<Integer> nums = new ArrayList<>(Arrays.asList(1, 3));
-        int target = 3;
+//        List<Integer> nums = new ArrayList<>(Arrays.asList(1, 3));
+//        int target = 3;
+//
+//        int result = FindFirstOccurrence.findFirstOccurrence(nums, target);
+//
+//        System.out.println(result);
 
-        int result = FindFirstOccurrence.findFirstOccurrence(nums, target);
+        /*
+         *  https://www.hackerrank.com/contests/software-engineer-prep-kit/challenges/maximum-non-overlapping-intervals/problem?isFullScreen=true
+         *  Maximum Number of Non-Overlapping Intervals
+         */
+//        List<List<Integer>> meetings = new ArrayList<>();
+//        meetings.add(Arrays.asList(1, 2));
+//        meetings.add(Arrays.asList(2, 3));
+//        meetings.add(Arrays.asList(3, 4));
+//        meetings.add(Arrays.asList(1, 3));
+//
+//        int result = MaximizeNonOverlappingMeetings.maximizeNonOverlappingMeetings(meetings);
+//
+//        System.out.println(result);
+
+        /*
+         *  https://www.hackerrank.com/contests/software-engineer-prep-kit/challenges/validate-properly-nested-brackets/problem?isFullScreen=true
+         *  Validate Properly Nested Brackets
+         */
+        String code_snippet = "if (a[0] > b[1]) { doSomething(); }}";
+
+        boolean result = AreBracketsProperlyMatched.areBracketsProperlyMatched(code_snippet);
 
         System.out.println(result);
     }
