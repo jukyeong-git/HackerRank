@@ -102,7 +102,7 @@ class Solution {
 //        int result = MaximumToys.maximumToys(prices, k);
 
         /*
-         *  hackerrank.com/challenges/sherlock-and-anagrams/problem
+         *  https://www.hackerrank.com/challenges/sherlock-and-anagrams/problem
          *  Sherlock and Anagrams
          */
 //        String s = "abba";
@@ -110,14 +110,40 @@ class Solution {
 //        int result = SherlockAndAnagrams.sherlockAndAnagrams(s);
 
         /*
-         *  hackerrank.com/challenges/sherlock-and-anagrams/problem
+         *  https://www.hackerrank.com/challenges/sherlock-and-anagrams/problem
          *  Ice Cream Parlor
          */
-        int m = 4;
+//        int m = 4;
 //        List<Integer> arr = new ArrayList<>(Arrays.asList(1, 4, 5, 3, 2));
-        List<Integer> arr = new ArrayList<>(Arrays.asList(2, 2, 4, 3));
+//        List<Integer> arr = new ArrayList<>(Arrays.asList(2, 2, 4, 3));
+//
+//        List<Integer> result = IcecreamParlor.icecreamParlor(m, arr);
 
-        List<Integer> result = IcecreamParlor.icecreamParlor(m, arr);
+        /*
+         *  https://www.hackerrank.com/challenges/pairs/problem
+         *  Pairs
+         */
+//        int k = 2;
+//        List<Integer> arr = new ArrayList<>(Arrays.asList(1, 5, 3, 4, 2));
+//
+//        int result = Pairs.pairs(k, arr);
+
+        /*
+         *  https://www.hackerrank.com/challenges/the-birthday-bar/problem
+         *  Subarray Division
+         */
+//        List<Integer> s = new ArrayList<>(Arrays.asList(4, 5, 4, 5, 1, 2, 1, 4, 3, 2, 4, 4, 3, 5, 2, 2, 5, 4, 3, 2, 3, 5, 2, 1, 5, 2, 3, 1, 2, 3, 3, 1, 2, 5));
+//        int d = 18, m = 6;
+//
+//        int result = Birthday.birthday(s, d, m);
+
+        /*
+         *  https://www.hackerrank.com/challenges/largest-rectangle/problem
+         *  Largest Rectangle
+         */
+        List<Integer> h = new ArrayList<>(Arrays.asList(1, 2, 3, 4, 5));
+
+        long result = LargestRectangle.largestRectangle(h);
 
         System.out.println(result);
     }

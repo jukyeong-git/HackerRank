@@ -4,7 +4,7 @@ import java.util.*;
 
 public class IcecreamParlor {
     /*
-     *  hackerrank.com/challenges/sherlock-and-anagrams/problem
+     *  https://www.hackerrank.com/challenges/sherlock-and-anagrams/problem
      *  Ice Cream Parlor
      */
     public static List<Integer> icecreamParlor(int m, List<Integer> arr) {
