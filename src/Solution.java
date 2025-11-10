@@ -141,9 +141,39 @@ class Solution {
          *  https://www.hackerrank.com/challenges/largest-rectangle/problem
          *  Largest Rectangle
          */
-        List<Integer> h = new ArrayList<>(Arrays.asList(1, 2, 3, 4, 5));
+//        List<Integer> h = new ArrayList<>(Arrays.asList(1, 2, 3, 4, 5));
+//
+//        long result = LargestRectangle.largestRectangle(h);
 
-        long result = LargestRectangle.largestRectangle(h);
+        /*
+         *  https://www.hackerrank.com/challenges/balanced-brackets/problem
+         *  Balanced Brackets
+         */
+//        String s = "{[()]}";
+//
+//        String result = IsBalanced.isBalanced(s);
+
+        /*
+         *  https://www.hackerrank.com/challenges/connected-cell-in-a-grid/problem
+         *  Connected Cells in a Grid
+         */
+//        List<List<Integer>> grid = new ArrayList<>();
+//        grid.add(Arrays.asList(0, 1, 1, 1, 1));
+//        grid.add(Arrays.asList(1, 0, 0, 0, 1));
+//        grid.add(Arrays.asList(1, 1, 0, 1, 0));
+//        grid.add(Arrays.asList(0, 1, 0, 1, 1));
+//        grid.add(Arrays.asList(0, 1, 1, 1, 0));
+//
+//        int result = ConnectedCell.connectedCell(grid);
+
+        /*
+         *  https://www.hackerrank.com/challenges/castle-on-the-grid/problem
+         *  Castle on the Grid
+         */
+        List<String> grid = new ArrayList<>(Arrays.asList(".X.",".X.","..."));
+        int startX = 0, startY = 0, goalX = 0, goalY = 2;
+
+        int result = MinimumMoves.minimumMoves(grid, startX, startY, goalX, goalY);
 
         System.out.println(result);
     }
